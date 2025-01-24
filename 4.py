@@ -3,10 +3,12 @@ def check_pass():
     tries = 0
 
     while tries < 3:
-        user_pass = input ("Introduce tu contraseña")
+        user_pass = input ("Introduce tu contraseña:")
         if system_pass == user_pass:
             print ("Bienvenido")
             break
         else:
          tries +=1
+         print("intento fallido")
          print("Cuenta bloqueada!")
+check_pass()
