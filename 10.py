@@ -1,7 +1,8 @@
-Base = int(input("introduzca la base del tríangulo:" ))
-Altura = int(input("Introduzca la altura del tríangulo:" ))
-Precio=int(input("Introduzca el precio por metro cuadrado:" ))
+def estrellas():
+    cantidad_estrellas = int(input("Ingrese la cantidad de estrellas: "))
+    for i in range(1 ,cantidad_estrellas + 1):
+        print("★"*i)
 
-Area=(Base*Altura/2)
-Ct = Area*Precio
-print(Area,"metros cuadrados" , "Costo total=", Ct)
+    return None
+
+estrellas()

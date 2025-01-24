@@ -1,7 +1,17 @@
-Base = int(input("introduzca la base del tríangulo:" ))
-Altura = int(input("Introduzca la altura del tríangulo:" ))
-Precio=int(input("Introduzca el precio por metro cuadrado:" ))
+import random
 
-Area=(Base*Altura/2)
-Ct = Area*Precio
-print(Area,"metros cuadrados" , "Costo total=", Ct)
+numero = random.randint(1, 50)
+
+for _ in range(5):
+    intento = int(input("Adivine el valor (Del 1 al 50): "))
+    if intento == numero:
+        print("¡Adivinaste!")
+
+    elif intento < numero :
+        print("El número es mayor.")
+    
+    elif intento > numero :
+        print("El número es menor.")
+
+    else:
+        print("Intenta de nuevo.")

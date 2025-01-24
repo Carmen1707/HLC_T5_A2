@@ -4,5 +4,5 @@ if notas>= 5:
     print ("Aprobado")
 else:
     print("Suspenso") 
-    # 1 numeros 2 caracteres especiales 3 mayusculas 4 minusculas 
+    # 1 numeros 2 caracteres especiales 3 mayusculas 4 minuscula
     # set duplicados 

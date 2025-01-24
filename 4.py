@@ -10,5 +10,5 @@ def check_pass():
         else:
          tries +=1
          print("intento fallido")
-         print("Cuenta bloqueada!")
+         print("Cuenta bloqueada")
 check_pass()

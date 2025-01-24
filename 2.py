@@ -13,6 +13,6 @@ elif n2 > n1 and n2 > n3: #ver si el 2 es mayor que el 1 y 3
     print("El mayor es el segundo número:")
 elif n3 > n1 and n3 > n2:
     print("El mayor es el tercer número:")
-#Parte de los iguales
+#Parte de los iguale
     if n1 == n2 and n1 == n3:
         print("Los tres números son iguales")

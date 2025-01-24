@@ -1,4 +1,4 @@
-edadv = int(input("Introduce tu edad:"))
+edadv = int(input("Introduce tu edad: "))
 if edadv <= 17:
     print("No puedes votar.")
 else:

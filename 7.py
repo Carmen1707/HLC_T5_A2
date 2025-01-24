@@ -3,7 +3,7 @@ def Fibonacci ():
     b = 1
     for i in range(10):
         print(a)
-       #a, b = b, a+b forma mas elegante
+       #a, b = b, a+b forma mas elegant
         c = a+b
         a = b
         b = c
